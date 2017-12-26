@@ -1,0 +1,11 @@
+.free_register{
+	align:right;
+}
+
+.btn{
+	align:center;
+}
+
+.signup_method{
+	align:right;
+}
