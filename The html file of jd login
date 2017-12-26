@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>京东登陆界面</title>	
+	<link rel="stylesheet" href="jd.css">
+</head>
+<body>
+	<header>
+		<img src="images/jd_logo.png" alt="jdlogo">
+	</header>
+	<section>
+		<form action="http:www.baidu.com" method="post">
+			<table border="0" cellspacing="0" align="center">
+				<caption>欢迎登录</caption>
+				<tr>
+					<td rowspan="8"><img src="images/login.png" alt=""></td>
+					<td>用户名/邮箱：</td>
+				</tr>
+				<tr>
+					<td><input type="text" value="mary@163.com" name="username"></td>
+				</tr>
+				<tr>
+					<td>密码：</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" id="auto_login" name="auto_login">
+						<label for="auto_login">自动登录</label>
+					</td>
+				</tr>
+				<tr>
+					<td class="btn">
+						<input type="submit" value="登录">
+						<input type="button" value="重置">
+					</td>
+				</tr>
+				<tr>
+					<td>使用京东账号登录</td>
+				</tr>
+				<tr>
+					<td class="signup_method">
+						<input type="radio" id="qq" name="contact">
+						<label for="qq">QQ</label>
+						<input type="radio" id="jd_wallet" name="contact">
+						<label for="jd_wallet">京东钱包</label>
+					</td>
+				</tr>
+				<tr>
+					<td class="free_register" colspan="2"><img src="images/btn_register" alt="register"></td>
+				</tr>
+			</table>
+		</form>
+	</section>
+	<footer align="center">
+		商家入驻|联系我们|关于我们|人才招聘
+	</footer>
+</body>
+</html>
