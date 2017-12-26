@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>css样式应用方式</title>
-	<link rel="stylesheet" href="CSS样式的应用方式_外部样式.css">
+	<link rel="stylesheet" href="Css file of application method of css style.css">
 	<style>
 		h3{
 			color: red;
