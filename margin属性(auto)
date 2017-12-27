@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>margin_auto</title>
+	<style>
+		div{
+			width: 100px;
+			/*给margin设置auto这里需要注意的是必须要给元素设置高度*/
+			margin:0 auto;
+			color:black;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div>hello</div>
+</body>
+</html>
