@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<title>边框</title>
+		<meta charset="utf-8">
+		<style>
+			#d1{
+				width: 100px;
+				height: 100px;
+				border-radius:50%;
+				/*border:width style color;*/
+				border: 2px solid green;
+				/*水平偏移，垂直偏移，模糊距离，阴影颜色 ：模拟元素外发光效果*/
+				box-shadow: 0px 0px 5px red;
+				/*box-sizing 使*/
+				box-sizing:border-box;
+				}
+			#d2{
+				width:0px;
+				height:0px;
+				border:5px solid transparent;
+				border-top-color:red;
+				/*box-sizing*/
+				box-sizing:border-box;
+				}
+		</style>
+	</head>
+	<body>
+		<div id="d1"></div>
+		<div id="d2"></div>
+		<!-- <details><summary>标题</summary></details> 这里是有部分内容展开和收缩的功能-->
+		<details>
+			<summary>摘要与细节</summary>
+			<summary>摘要与细节</summary>
+		</details>
+	</body>
+</html>
+
+
+
+
