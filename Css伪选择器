@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>伪选择器</title>
+			<meta charset="utf-8">
+			<style>
+				a:link{
+					color:red;
+					font-size:15px;
+					text-decoration:none;
+				}
+				a:hover{
+					color:blue;
+					font-size:30px;
+				}
+				a:visited{
+					color:green;
+					font-size:60;
+				}
+				#username{
+					color: green;
+				}
+				#username:focus{
+					color:yellow;
+				}
+				#username:active{
+					color:red;
+				}
+			</style>
+		</head>
+		<body>
+			<a target=_self href="#">中国开源社区</a>
+			<p>
+				用户名：
+				<input id="username" type="text" name="username" value="请输入用户名称">
+			</p>
+		</body>
+	</html>
