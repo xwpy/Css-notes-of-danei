@@ -1,0 +1,63 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>排序按钮以及框模型</title>
+		<style>
+			p a{
+				border-radius: 20%;
+				border: 1px solid grey;
+				margin: 13px 5px;
+				padding:5px 6px;
+				box-sizing: border-box;
+				/*box-shadow: 1px 1px 10px yellow;*/
+			}
+			.d1{
+				/*取消边框显示：border：none或者0;*/
+				border: none;
+				text-decoration: none;
+			}
+			div {
+				width: 500px;
+				height: 150px;
+				border: 1px solid grey;
+				overflow-x: auto;
+				overflow-y: hidden;
+			}
+			.d2{
+				width: 800px;
+				height: 100%;
+			}
+			.d2 img{
+				border:1px solid grey;
+				width: 100px;
+				height: 102px;
+				margin: auto 0px;
+			}
+			.d2 img:hover{
+				border: 1px solid red;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<p class="d2">
+				<img src="images/p_small_001.jpg" alt="">
+				<img src="images/p_small_002.jpg" alt="">
+				<img src="images/p_small_003.jpg" alt="">
+				<img src="images/p_small_004.jpg" alt="">
+				<img src="images/p_small_005.jpg" alt="">
+				<img src="images/p_small_006.jpg" alt="">
+				<img src="images/p_small_007.jpg" alt="">
+			</p>
+		</div>
+		<p>
+			<a class="d1" href="#">1</a>
+			<a href="#">2</a>
+			<a href="#">3</a>
+			<a href="#">4</a>
+			<a href="#">5</a>
+			<a href="#">6</a>
+		</p>
+	</body>
+	</html>
