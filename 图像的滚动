@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>图像的渐变</title>
+	<style>
+		#d1{
+			width: 400px;
+			height: 400px;
+			border: 1px solid #333;
+			box-shadow:1px 1px 10px yellow;
+			border-radius: 50%;
+			box-sizing: border-box;
+			这里面不知道是什么鬼
+			background-image:-moz-linear-gradient(45deg,red 0%,blue 10%, green 20% yellow 40%, gold 50%)
+			}
+		#d2{
+			width: 400px;
+			height: 400px;
+			border: 1px dotted yellow;
+			border-radius: 50%;
+			box-shadow:50%; 
+			box-sizing:content-box;
+			background-image: radial-gradient(500px at left top, red 10%, yellow 50%)
+		}
+		#d3{
+			width: 400px;
+			height: 400px;
+			border: 1px dashed yellow;
+			border-radius: 50%;
+			box-shadow: 1px 1px 15px red;
+			box-sizing: border;
+			background-image:-moz-linear-gradient(to top,black yellow)
+		}
+	</style>
+</head>
+<body>
+	<div id="d1"></div>
+	<div id="d2"></div>
+	<div id="d3"></div>
+</body>
+</html>
