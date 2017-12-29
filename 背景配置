@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>背景配置</title>
+	<style>
+		div{
+			width:500px;
+			height:600px;
+			background:yellow url(images/p02.jpg) no-repeat;
+		}
+
+		div:hover{
+			background:green url(images/p03.jpg) no-repeat;
+		}
+	
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
