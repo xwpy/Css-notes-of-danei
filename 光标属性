@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>光标</title>
+	<style>
+		.cursor{
+			/*cursor:default;*/
+			/*cursor:wait;*/
+			/*小手*/
+			cursor:pointer;
+			/*十字*/
+			/*cursor: crosshair;*/
+			/*cursor: text;*/
+			/*cursor: help;*/
+		}
+	</style>
+</head>
+<body>
+	<div class="cursor">光标</div>
+</body>
+</html>
