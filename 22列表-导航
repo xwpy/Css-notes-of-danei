@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>列表-导航</title>
+		<style>
+			#nav{
+				margin-top: 23px;
+			}
+			#nav a{
+				text-decoration:none;
+				border: 0px solid red;
+				margin:0px 31px;
+				color: black;
+			}s
+		</style>
+	</head>
+	<body>
+		<div id="nav">
+			<a href="#">服装城</a>
+			<a href="#">生鲜</a>
+			<a href="#">京东超市</a>
+			<a href="#">美妆馆</a>
+		</div>
+	</body>
+</html>
