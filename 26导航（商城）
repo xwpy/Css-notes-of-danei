@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>导航（购物商城）</title>
+	<style>
+		.nav{
+			border:1px;
+			margin-top: -10px;
+			width: 990px;
+			height: 40px;
+			background-color: #e64346;
+
+		}
+		.nav a{
+			text-decoration: none;
+			float: left;
+			padding: 10px 35px;
+			color:#ffffed;
+		}
+		.nav p a{
+			/*background-color:#cd292b;*/
+			padding-left: 14px;
+
+		}
+		.nav p b{
+			float: left;
+			background :url(Images/iconlist_2.png) no-repeat -65px 10px;
+			width: 20px;
+			height: 40px;
+			background-color: #cd292b;
+		}
+		.nav .nav_list li{
+			list-style: none;
+		}
+		.nav .nav_list li a{
+			text-decoration: none;
+			float: left;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<p>
+			<a href="#">全部商品分类</a>
+			<b></b>
+		</p>
+		<div class="nav_list">
+			<ul>
+				<li><a href="">首页</a></li>
+				<li><a href="">服装</a></li>
+				<li><a href="">食品</a></li>
+				<li><a href="">团购</a></li>
+				<li><a href="">夺宝岛</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
