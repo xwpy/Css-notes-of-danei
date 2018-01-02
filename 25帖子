@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>帖子项目</title>
+	<style>
+		body{
+			font-size: 12px;
+		}
+		#discuss{
+			width: 990px;
+			border:0px solid #dddddd;
+		}
+		#discuss .types_of_discussion{
+			width:990px;
+			height:30px;
+			background-color: #f7f7f7; 
+			border:1px solid #dbdbdb;
+			border-top:2px solid #999999;
+		}
+		#discuss>.types_of_discussion a{
+			text-align: center;
+			border:0px solid red;
+			font-size: 14px;
+			float: left;
+			width: 100px;
+			height: 30px;
+			line-height:30px;
+			text-decoration:none;
+
+		}
+		#discuss .types_of_discussion .current{
+			border:1px solid red;
+			border-top:2px solid red;
+			border-bottom:0;
+			/*做到点击上边框上浮的效果*/
+			margin-top: -6px;
+			height:35px;
+			line-height:35px;
+			/*用背景色覆盖了原来父元素盒子上边框*/
+			background-color:#fff;
+			color:#E4393C;
+		}
+		.table-dates{
+			text-align: center;
+			width:990px;
+			height:90px;
+			border:1px solid #ddd;
+		}
+
+		.table-content .table-dates td>a{
+			text-decoration:none;
+		}
+		.table-content .table-dates .xyf{
+			text-align: left;
+			padding-left: 24px;
+	}
+		#others{
+			width:990px;
+		}
+		#others .total{
+			float:right;
+			}
+		p a{
+			/*width:15px;*/
+			/*height: 15px;*/
+			float: left;
+			border:1px solid red;
+			padding: 10px;
+			margin: 0 5px;
+			text-decoration:none;
+			border-radius: 50%;
+			
+		}
+	</style>
+</head>
+<body>
+	<div id="discuss">
+		<div class="types_of_discussion">
+			<a href="#">网友讨论圈</a>
+			<a class="current" href="#">晒单帖</a>
+			<a href="#">讨论帖</a>
+			<a href="#">问答帖</a>
+			<a href="#">圈子帖</a>
+		</div>
+		<div class="table-content">
+			<table border="0" class="table-dates" align="left">
+				<tr align="left">
+					<th width="623px">主题</th>
+					<th>回复/浏览</th>
+					<th>作者</th>
+					<th>时间</th>
+				</tr>
+				<tr>
+					<td class="shai" width="92px">
+						<i></i>
+						<a href="#">好大一瓶</a>
+					</td>
+					<td>0/0</td>
+					<td><a href="#">2001年冬天</a></td>
+					<td>2011-11-11 11:1111</td>
+				</tr>
+				<tr>
+					<td class="xyf">
+						<i></i>
+						<a href="#">洗衣服超级划算，有活动</a>
+					</td>
+					<td>0/0</td>
+					<td><a href="#">xpx2001</a></td>
+					<td>2011-11-11 11:1111</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div id="others">
+		<div class="total">
+			共900个话题
+			<a href="#">浏览全部话题</a>
+		</div>
+		<div class="new">
+			有问题要与其他用户讨论？
+			<a href="#">发表帖子</a>
+		</div>
+			<!-- <div style="clear:both;"></div> -->
+	</div>
+	<p>
+	<a href="">1</a>
+	<a href="">2</a>
+	<a href="">3</a>
+	<a href="">4</a>
+	<a href="">5</a>
+	<a href="">...</a>
+	<a href="">100</a>
+	</p>
+</body>
