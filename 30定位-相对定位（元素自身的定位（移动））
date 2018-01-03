@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>相对定位</title>
+	<style>
+		.dh li{
+			border:1px solid red;
+			list-style: none;
+			float: left;
+			padding:9px 9px;
+			margin: 0 10px;
+			width:100px;
+			text-align:center;
+		}
+		.dh li:hover{
+			position: relative;
+			/*左边往右移动5px*/
+			left: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="dh">
+		<ul>
+			<li>刘德华</li>
+		</ul>
+		<ul>
+			<li>刘德华</li>
+		</ul>
+		<ul>
+			<li>刘德华</li>
+		</ul>
+		<ul>
+			<li>刘德华</li>
+		</ul>
+	</div>
+</body>
+</html>
