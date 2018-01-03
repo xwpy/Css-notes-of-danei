@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+		function test(){
+			alert("谢武世界上最帅的人")
+		}
+	</script>
+	<style>
+		#total{
+			position: relative;
+			left: 500px;
+		}
+		.menu{
+			width: 400px;
+			height: 400px;
+			border:1px solid #333;
+			z-index: 100;
+			position: relative;
+			/*background:#fff;*/
+			top: 2px;
+
+		}
+		.content{
+			position: absolute;
+			display: none;
+			/*控制这个盒子相对于第一个盒子的位置*/
+			left: -200px;
+			width: 800px;
+			height:800px;
+			border:1px solid red;
+			z-index: 10;
+
+
+		}
+		.menu:hover{
+			/*因为两个盒子的边框合在一起会是2像素，所以设置2px，#fff（白色）会形成2个盒子无缝连接的效果*/
+			border-bottom:2px solid #fff;
+		}
+		#total:hover .content{
+			display: block;
+			
+
+		}
+	</style>
+</head>
+<body>
+	<div id="total">
+		<div class="menu">点击<button onclick="test()">提交</button>你就会发现许多美妙的事情</div>
+		<div class="content"><a href="http://www.baidu.com">百度</a></div>	
+	</div>
+</body>
+</html>
